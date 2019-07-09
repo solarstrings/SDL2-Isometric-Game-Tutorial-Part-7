@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SDL2 Isometric Game Tutorial Part 7 64bit" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler_64bit" />
+		<MakeCommands>
+			<Build command="" />
+			<CompileFile command="" />
+			<Clean command="" />
+			<DistClean command="" />
+			<AskRebuildNeeded command="" />
+			<SilentBuild command=" &gt; $(CMD_NULL)" />
+		</MakeCommands>
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug64/SDL2 Isometric Game Tutorial Part 7 64bit" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug64/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_64bit" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="libmingw32" />
+					<Add library="SDL2main" />
+					<Add library="SDL2" />
+					<Add library="SDL2_image" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release64/SDL2 Isometric Game Tutorial Part 7 64bit" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release64/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_64bit" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libmingw32" />
+					<Add library="SDL2main" />
+					<Add library="SDL2" />
+					<Add library="SDL2_image" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="ECS/Component/component.h" />
+		<Unit filename="ECS/Component/component_animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/Component/component_animation.h" />
+		<Unit filename="ECS/Component/component_collision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/Component/component_collision.h" />
+		<Unit filename="ECS/Component/component_inputkeyboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/Component/component_inputkeyboard.h" />
+		<Unit filename="ECS/Component/component_inputmouse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/Component/component_inputmouse.h" />
+		<Unit filename="ECS/Component/component_nametag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/Component/component_nametag.h" />
+		<Unit filename="ECS/Component/component_position.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/Component/component_position.h" />
+		<Unit filename="ECS/Component/component_render2D.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/Component/component_render2D.h" />
+		<Unit filename="ECS/Component/component_velocity.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/Component/component_velocity.h" />
+		<Unit filename="ECS/Entity/entity.h" />
+		<Unit filename="ECS/Scene/scene.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/Scene/scene.h" />
+		<Unit filename="ECS/Scene/scenemanager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/Scene/scenemanager.h" />
+		<Unit filename="ECS/System/system.h" />
+		<Unit filename="ECS/System/system_animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/System/system_animation.h" />
+		<Unit filename="ECS/System/system_collision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/System/system_collision.h" />
+		<Unit filename="ECS/System/system_control_entity.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/System/system_control_entity.h" />
+		<Unit filename="ECS/System/system_control_iso_world.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/System/system_control_iso_world.h" />
+		<Unit filename="ECS/System/system_input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/System/system_input.h" />
+		<Unit filename="ECS/System/system_move.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/System/system_move.h" />
+		<Unit filename="ECS/System/system_render_iso_world.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ECS/System/system_render_iso_world.h" />
+		<Unit filename="IsoEngine/isoEngine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="IsoEngine/isoEngine.h" />
+		<Unit filename="IsoEngine/isoMap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="IsoEngine/isoMap.h" />
+		<Unit filename="IsoEngine/perlinNoise.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="IsoEngine/perlinNoise.h" />
+		<Unit filename="deltatimer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="deltatimer.h" />
+		<Unit filename="fontpool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fontpool.h" />
+		<Unit filename="initclose.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="initclose.h" />
+		<Unit filename="isoTutorialPart7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="logger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="logger.h" />
+		<Unit filename="renderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="renderer.h" />
+		<Unit filename="texture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="texture.h" />
+		<Unit filename="texture_pool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="texture_pool.h" />
+		<Unit filename="timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timer.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
